@@ -1,0 +1,44 @@
+/* Global Reset & Base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+  color: #333;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#search-form {
+  margin-top: 1rem;
+}
+#search-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+#search-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+/* Card Styles */
+.card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Forecast Grid */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
